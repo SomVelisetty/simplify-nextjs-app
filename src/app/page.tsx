@@ -18,16 +18,16 @@ export default function Home() {
           <ContainerScroll
             titleComponent={
               <div className="flex items-center flex-col">
-                <Button
+                {/* <Button
                   size={'lg'}
                   className="p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500"
                 >
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-500 to-neutral-600  md:text-center font-sans group-hover:bg-gradient-to-r group-hover:from-black goup-hover:to-black">
                     Start For Free Today
                   </span>
-                </Button>
-                <h1 className="text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold">
-                  Automate Your Work With Fuzzie
+                </Button> */}
+                <h1 className="text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold mb-10">
+                Simplify Your Work
                 </h1>
               </div>
             }
@@ -35,12 +35,12 @@ export default function Home() {
         </div>
       </section>
       {/* clients of simplify */}
-      <InfiniteMovingCards
+      {/* <InfiniteMovingCards
         className="md:mt-[18rem] mt-[-100px]"
         items={clients}
         direction="right"
         speed="slow"
-      />
+      /> */}
       <section>
         <HeroParallax products={products}></HeroParallax>
       </section>
@@ -54,7 +54,7 @@ export default function Home() {
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
                 Hobby
-                <h2 className="text-6xl ">$0</h2>
+                <h2 className="text-6xl ">₹0</h2>
               </CardItem>
               <CardItem
                 translateZ="60"
@@ -101,7 +101,7 @@ export default function Home() {
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
                 Pro Plan
-                <h2 className="text-6xl ">$29</h2>
+                <h2 className="text-6xl ">₹499</h2>
               </CardItem>
               <CardItem
                 translateZ="60"
@@ -148,7 +148,7 @@ export default function Home() {
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
                 Unlimited
-                <h2 className="text-6xl ">$99</h2>
+                <h2 className="text-6xl ">₹999</h2>
               </CardItem>
               <CardItem
                 translateZ="60"
